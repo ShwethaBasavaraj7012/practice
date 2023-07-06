@@ -28,10 +28,11 @@ jobs:
         run: echo my name is shwetha
         
       - name: Run a multi-line script
-        run: hey its me
-             hey 
-             hey there
-             how are you
+        run: 
+         echo hey its me
+         echo hey 
+         echo hey there
+         echo how are you
 
       
           
