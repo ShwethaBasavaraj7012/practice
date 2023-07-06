@@ -26,6 +26,12 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo my name is shwetha
+        
+      - name: Run a multi-line script
+        run: hello its me
+             hey its me
+             hey there
+             how are you
 
       
           
