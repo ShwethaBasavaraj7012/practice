@@ -1,4 +1,4 @@
-class Main {
+class shw {
 
   public static void main(String[] args) {
     
