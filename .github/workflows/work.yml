@@ -25,7 +25,7 @@ jobs:
         run: java -version
         
       - name: Compiling shw.java source code 
-        run: javac ./.github/shw.java
+        run: javac .github/workflows/shw.java
         
       - name: Listing Files 
         run: ls -ltr
