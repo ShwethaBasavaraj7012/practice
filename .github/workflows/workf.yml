@@ -31,7 +31,7 @@ jobs:
         run: ls -ltr
       
       - name: Executing shw.java source code 
-        run: .github/workflows/shw.java
+        run: java .github/workflows/shw.java
           
       - name: Step 5 - List Ubuntu Environment Variables
         run: env
