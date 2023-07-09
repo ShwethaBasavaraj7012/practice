@@ -21,20 +21,20 @@ jobs:
         with: 
           java-version: 1.8
 
-      - name: Printing Java Version
+      - name: Step 3 - Printing Java Version
         run: java -version
         
-      - name: Compiling shw.java source code 
+      - name: Step 4 - Compiling shw.java source code 
         run: javac .github/workflows/shw.java
         
-      - name: Listing Files 
+      - name: Step 5 - Listing Files 
         run: ls -ltr
       
-      - name: Executing shw.java source code 
+      - name: Step 6 - Executing shw.java source code 
         run: java .github/workflows/shw.java
           
-      - name: Step 5 - List Ubuntu Environment Variables
+      - name: Step 7 - List Ubuntu Environment Variables
         run: env
         
-      - name: Step 6 - Run a echo script
+      - name: Step 8 - Run a echo script
         run: .github/workflows/echo.sh
